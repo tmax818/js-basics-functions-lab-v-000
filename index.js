@@ -1,6 +1,6 @@
 // Code your solution in this file!
 
-function distanceTravelledInFeet(start, end) {
+function distanceTravelledInFeet(start, destination) {
  return Math.abs(start - end) * 264; 
  
 }
