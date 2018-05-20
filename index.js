@@ -14,8 +14,8 @@ function distanceFromHqInFeet(block) {
 }
 
 function calculatesFarePrice(start, destination) {
-  if (age >= 18) {
-  isAdult = true;
+  if (distanceTravelledInFeet(start, destination)  >= 400) {
+  return 0;
 } else {
   isAdult = false;
 }
