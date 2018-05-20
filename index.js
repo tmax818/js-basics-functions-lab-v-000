@@ -18,7 +18,7 @@ function calculatesFarePrice(start, destination) {
   const adjDistance = distance - 400;
   if (distance < 400) {
   return 0;
-  } else if (adjDistance > 2000 ) {
+  } else if (distance > 2000 ) {
     return 25;
   } else if (distance > 2500) {
     return 'cannot travel that far';
